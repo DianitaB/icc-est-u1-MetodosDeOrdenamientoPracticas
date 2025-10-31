@@ -31,9 +31,23 @@ public class View {
             }else{
                 scanner.next();
             }
-            System.out.println("Opcion invalida");
+            System.out.println("Opcion invalida, Ingrese otra ves: ");
         }
         return option;
-        
+
+    }
+
+    public void shortOrder(){
+        System.out.println("\n --Seleccione el Orden");
+        System.out.println("1. -> Ascendente");
+        System.out.println("2. -> Descendente");
+        System.err.print("Seleccione la opcion:");
+    }
+
+    public void showPasosMenu() {
+        System.out.println("\n --Desea ver los pasos? ---");
+        System.out.println("1. -> Si");
+        System.out.println("2. -> No");
+        System.err.print("Seleccione la opcion:");
     }
 }
