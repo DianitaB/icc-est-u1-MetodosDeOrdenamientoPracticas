@@ -31,10 +31,10 @@ Este método implementa el algoritmo de Ordenamiento de Burbuja (Bubble Sort) en
 
 # 4.- Sort Bubble Mejorado
 
-El objetivo del Bubble Sort Mejorado es realizar la misma tarea de ordenamiento que la versión simple ($O(n^2)$ en el peor caso), pero con la capacidad de terminar mucho más rápido, en $O(n)$, si el arreglo está ya ordenado o casi ordenado.
+El objetivo del Bubble Sort Mejorado es realizar la misma tarea de ordenamiento que la versión simple O(n^2) en el peor caso, pero con la capacidad de terminar mucho más rápido, en o(n), si el arreglo está ya ordenado o casi ordenado.
 ### **Captura del Método**
 
 ![Resultado de Ejecución](assets/sortBubbleMejorado.png)
 
 ## Conclusion
-Mi conclusión al implementar los métodos de Selección, Inserción y Burbuja (Simple y Mejorada) es que la estrategia de movimiento del algoritmo es más importante que solo lograr el ordenamiento. Descubrí que la Burbuja Simple es la menos eficiente por revisar siempre el arreglo ($O(n^2)$), mientras que los métodos con detección de orden —como la Burbuja Mejorada  e Inserción (por su eficiencia con arreglos casi ordenados)— demuestran una superioridad práctica al lograr una complejidad de $O(n)$ en el mejor de los casos. Es por ello que el método de Selección es el más consistente en su ineficiencia, ya que siempre realiza la misma cantidad de comparaciones, independientemente del estado inicial del arreglo.
+Mi conclusión al implementar los métodos de Selección, Inserción y Burbuja (Simple y Mejorada) es que la estrategia de movimiento del algoritmo es más importante que solo lograr el ordenamiento. Descubrí que la Burbuja Simple es la menos eficiente por revisar siempre el arreglo O(n^2), mientras que los métodos con detección de orden —como la Burbuja Mejorada  e Inserción (por su eficiencia con arreglos casi ordenados)— demuestran una superioridad práctica al lograr una complejidad de O(n) en el mejor de los casos. Es por ello que el método de Selección es el más consistente en su ineficiencia, ya que siempre realiza la misma cantidad de comparaciones, independientemente del estado inicial del arreglo.
